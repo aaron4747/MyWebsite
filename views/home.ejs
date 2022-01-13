@@ -1,0 +1,38 @@
+<%- include("partials/header"); -%>
+
+<div class="container-fluid blue-section">
+  <div class="ml-5 mr-5">
+    <h1 class='pb-2'>Thank You for Visiting My First Website</h1>
+    <h2 class='pb-1'><u>Brought to You by Aaron Snyder</u></h2>
+    <h4 class=''>Enjoy Taking a Gander</h4>
+  </div>
+</div>
+
+<div class="container-fluid white-section">
+  <div class="container">
+    <div class="row ml-5 mr-5">
+      <div class="col-6 border-right border-dark">
+        <h1>Why</h1>
+        <p> <%= why %> </p>
+      </div>
+      <div class="col-6">
+        <h1>How</h1>
+        <p> <%= how %> </p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="container-fluid grey-section">
+  <div class="container">
+    <div class="row">
+      <div class='col'>
+        <div class="embed-responsive embed-responsive-4by3">
+          <video class="embed-responsive-item" src="video/homeVideo.mp4" controls allowfullscreen></iframe>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<%- include("partials/footer"); -%>
